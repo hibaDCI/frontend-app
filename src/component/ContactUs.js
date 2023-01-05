@@ -1,5 +1,6 @@
 import {Row, Col, Form, Button, Alert} from "react-bootstrap";
-import axios from "axios";
+// import axios from "axios";
+import axios from "../utils/axiosConfig";
 import {useState} from "react";
 
 function ContactUs() {

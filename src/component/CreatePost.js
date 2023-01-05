@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
-import axios from "axios";
-// import axios from "../utils/axiosConfig"; //  later when config for deployment
+// import axios from "axios";
+import axios from "../utils/axiosConfig"; //  later when config for deployment
 
 function CreatePost() {
   const [post, setPost] = useState([]);

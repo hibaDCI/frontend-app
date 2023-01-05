@@ -1,7 +1,8 @@
 import React, {useState} from "react";
 import {useNavigate} from "react-router-dom";
-
-import axios from "axios";
+//  we use axios after config when deployment
+import axios from "../utils/axiosConfig";
+// import axios from "axios";
 
 function Login() {
   const [msg, setMsg] = useState("You need to login ");

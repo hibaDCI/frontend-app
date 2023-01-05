@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import axios from "axios";
-// import axios from "../utils/axiosConfig";
+// import axios from "axios";
+import axios from "../utils/axiosConfig";
 function Register() {
   const [user, setUser] = useState({
     username: "",
