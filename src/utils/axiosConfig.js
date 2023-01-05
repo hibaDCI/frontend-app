@@ -8,5 +8,5 @@ const url =
     : "https://superuser-api.onrender.com";
 
 axiosApiInstance.defaults.baseURL = url;
-
+axiosApiInstance.defaults.withCredentials = true;
 export default axiosApiInstance;
